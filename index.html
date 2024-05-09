@@ -4,8 +4,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maxime Launay - Freelance</title>
     <link href="style.css" rel="stylesheet">
+    <link href="mediaqueries.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4389a045d7.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    Hello World
+    <!-- Web header -->
+    <div id="web" class="header">
+        <div class="nametitle"><span>Maxime Launay</span></div>
+        <nav class="navbar">
+            <a class="navhead" href="#home">Home</a>
+            <a class="navhead" href="#about">About me</a>
+            <a class="navhead" href="#experience">Experience</a>       
+            <a class="navhead" href="#projects">Projects</a>
+            <a class="navhead" href="#contact">Contact</a> 
+        </nav>
+    </div>
+
+    <!-- Mobile header -->
+    <div id="mobile" class="header-mobile">
+        <div class="nametitle"><span>Maxime Launay</span></div>
+        <div class="navicon" onclick="toggleMenu()"><i class="fa-solid fa-bars-staggered fa-2xl" style="color: #ffffff;"></i></div>
+        <nav class="navbar-mobile">
+            <a class="navhead" onclick="toggleMenu()" href="#home">Home</a>
+            <a class="navhead" onclick="toggleMenu()" href="#about">About me</a>
+            <a class="navhead" onclick="toggleMenu()" href="#experience">Experience</a>       
+            <a class="navhead" onclick="toggleMenu()" href="#projects">Projects</a>
+            <a class="navhead" onclick="toggleMenu()" href="#contact">Contact</a> 
+        </nav>
+    </div>
+
+    <section class="home-class">
+        <img src="assets/pp.jpg" class="pp">
+        <div style="display: flex; align-items: center; flex-direction: column;">
+            <h1>Hi ! I am Maxime Launay</h1>
+            <p>Frontend Developper, but who also likes videogames. And also some other stuff.</p>
+        </div>
+</section>
+    <script src="script.js"></script>
 </body>
 </html>
