@@ -5,4 +5,23 @@
     #mobile {
         display: flex;
     }
+
+    #home {
+        flex-direction: column;
+        margin: 2rem;
+        height: 70vh;
+    }
+    .pp{
+        width: 200;
+    }
+
+    .home-head {
+        font-size: 2.25rem;
+        text-align: center;
+    }
+
+    .home-text {
+        font-size: 1.25rem;
+    }
+
 }
