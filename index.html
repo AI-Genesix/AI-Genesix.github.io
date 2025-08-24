@@ -1,56 +1,13 @@
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maxime Launay - Freelance</title>
-    <link href="style.css" rel="stylesheet">
-    <link href="mediaqueries.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/4389a045d7.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <!-- Web header -->
-    <div id="web" class="header">
-        <div class="nametitle"><span>Maxime Launay</span></div>
-        <nav class="navbar">
-            <a class="navhead" href="#home">Home</a>
-            <a class="navhead" href="#about">About me</a>
-            <a class="navhead" href="#experience">Experience</a>       
-            <a class="navhead" href="#projects">Projects</a>
-            <a class="navhead" href="#contact">Contact</a> 
-        </nav>
-    </div>
-
-    <!-- Mobile header -->
-    <div id="mobile" class="header-mobile">
-        <div class="nametitle"><span>Maxime Launay</span></div>
-        <div class="navicon" onclick="toggleMenu()"><i class="fa-solid fa-bars-staggered fa-2xl icon-link" style="color: #ffffff;"></i></div>
-        <nav class="navbar-mobile">
-            <a class="navhead" onclick="toggleMenu()" href="#home">Home</a>
-            <a class="navhead" onclick="toggleMenu()" href="#about">About me</a>
-            <a class="navhead" onclick="toggleMenu()" href="#experience">Experience</a>       
-            <a class="navhead" onclick="toggleMenu()" href="#projects">Projects</a>
-            <a class="navhead" onclick="toggleMenu()" href="#contact">Contact</a> 
-        </nav>
-    </div>
-
-    <section id="home">
-        <img src="assets/pp.jpg" class="pp">
-        <div style="display: flex; align-items: center; flex-direction: column; justify-content: center;">
-            <h1 class="home-head">Hi, I am Maxime Launay !</h1>
-            <p class="home-text">Frontend and game developper.</p>
-            <p class="home-text">But also :<br /> - Board and video game enjoyer <br /> - Pokémon TCG competitor.</p>
-            <div class="home-icons">
-                <i class="fa-brands fa-github fa-2xl icon-link" style="color: #715241; margin: 20; font-size: 3rem;" onclick="location.href='https://github.com/AI-Genesix'"></i> 
-                <i class="fa-brands fa-linkedin fa-2xl icon-link" style="color: #715241; margin: 20; font-size: 3rem;" onclick="location.href='https://www.linkedin.com/in/maxime-launay-607374207/'"></i>
-                <i class="fa-brands fa-x-twitter fa-2xl icon-link" style="color: #715241; margin: 20; font-size: 3rem;" onclick="location.href='https://twitter.com/_genesix'"></i>
-            </div>
-        </div>
-    </section>
-    <script src="script.js"></script>
-</body> 
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI-Genesix</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
 </html>
